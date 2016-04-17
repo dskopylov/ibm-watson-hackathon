@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mental Rotation</title>
+		<link type="text/css"  rel="stylesheet" href="stylesMentalRotation.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="mentalRotation.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore=0;
+			var personTrainingResult="";
+			var personTrainingLevel=1;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document).keyup(function(event){
+					keyboardHandler(event);
+				});
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+
+				<div class="desc-container">
+					<div class="training-name">Mental Rotation</div>
+					<div class="training-description">В каждом задании данного теста Вам будут показаны две фигуры, наклоненные под некоторым углом. Некоторые пары будут содержать одинаковые (идентичные) полигоны, отличающиеся между собой лишь углом наклона. В других парах фигуры будут зеркально отражены, что определяет их различие. Ваша задача определить, являются ли фигуры, представленные в задании идентичными. Подтвердите свой ответ, нажав клавишу "S" на клавиатуре в случае совпадения фигур или "D", если они различны. Всего в тесте будет представлено 64 задания. Нажмите кнопку, чтобы начать. </div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page border">
+
+				<div class="description">
+					<div id="desc0" class="desc-border desc-in">Укажите, являются ли показанные фигуры идентичными между собой, нажав клавишу "S", или подтвердите их различие, нажав "D".</div>
+				</div>
+
+				<div class="task-container">
+					<div id="taskDisplay" class="task-display">
+						<canvas id="drawPanel" class="draw-panel" width="720" height="450">
+					</div>
+				</div>
+
+				<!-- <div id="correct" class="correct"></div> -->
+
+				<!-- <div id="infoContainer">
+					<div id="answerError" class="error-info"></div>
+				</div> -->
+
+				<div id="infoContainer">
+					<div id="less" class="info-button less-info">Идентичны (S)</div>					
+					<div id="greater" class="info-button greater-info">Различны (D)</div>
+				</div>
+
+			</div>
+
+			<div id="exitPage" class="main-page border">
+
+				<div class="exit-page">
+					Спасибо за прохождение теста!
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+</html>

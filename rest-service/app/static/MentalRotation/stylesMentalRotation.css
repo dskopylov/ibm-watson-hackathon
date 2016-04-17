@@ -1,0 +1,170 @@
+body{
+	background: #efefef;
+	font-size: 13pt;
+	font-family: "Tahoma";
+}
+
+.all-container{	
+	background: white;
+	width: 720px;
+	height: 600px;
+	margin: 6% auto;
+}
+
+/*____________________START_PAGE__________________*/
+
+.border{
+	border: 2px solid #505050;
+	background: #e5e5e5;
+}
+
+.start-page{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.desc-container{	
+	width: 100%;
+	height: 75%;
+	border-radius: 20px;	
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+
+}
+
+.training-name{
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-left: 0%;
+	color: #000;
+	text-shadow: 0 0 15px white;
+}
+
+.training-description{
+	margin: 0 5%;
+	margin-top: 5%;
+	padding: 2% 2%;
+	background: #fff;
+	border: 1px dashed #000;
+	text-align: justify;
+}
+
+.play-button{
+	margin-top: 8%;
+	margin-left: 39%;
+	width: 120px;
+	height: 120px;
+	background: #3c814c;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	font-family: 'Times New Roman';
+	border: 2px solid #397947;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	cursor:pointer;
+}
+
+.play-button:hover{
+	background: #4ca25f;
+}
+
+.play-arrow{
+	color: white;
+	display: inline-block;
+	margin: 13% 23%;
+	font-size: 60pt;
+	text-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+/*____________________MAIN_PAGE__________________*/
+
+.main-page{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+}
+
+.description{
+	margin: 0 3.5%;
+	margin-top: 35px;
+	width: 650px;
+	clear: both;
+}
+
+.desc-in{
+	text-align: justify;
+	display: none;
+}
+
+.desc-border{
+	width: 100%;
+}
+
+.task-container{
+	margin-top: 3%;
+	width: 100%;
+}
+
+.task-display{
+	font-size: 60pt;
+	font-weight: bold;
+	letter-spacing: 20px;
+	text-align: center;
+}
+
+.draw-panel{
+	background: #e5e5e5;
+	/background: #b9b9b9;
+}
+
+.correct{
+	font-size: 23pt;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 450px;
+	font-weight: bold;
+	text-shadow: 0 0 1px white;
+	display: none;
+}
+
+#infoContainer{
+	/display: none;
+}
+
+.less-info{
+	position: absolute;
+	left: 30px;
+	top: 550px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.greater-info{
+	position: absolute;
+	right: 30px;
+	top: 550px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.error-info{
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	color: #ae323b;
+}
+
+.exit-page{
+	margin-top: 39%;
+	font-weight: bold;
+	font-size: 30pt;
+	width: 100%;
+	text-align: center;
+}
+

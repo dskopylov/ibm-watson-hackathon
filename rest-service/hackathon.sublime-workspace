@@ -1,0 +1,1255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"response_text"
+			],
+			[
+				"Pro",
+				"Project"
+			],
+			[
+				"Projec",
+				"ProjectTask"
+			],
+			[
+				"ST",
+				"STATUS_REJECTED"
+			],
+			[
+				"pro",
+				"project_id"
+			],
+			[
+				"task",
+				"task_type_id"
+			],
+			[
+				"tas",
+				"task_type_correct"
+			],
+			[
+				"task_t",
+				"task_type"
+			],
+			[
+				"Proje",
+				"ProjectTask"
+			],
+			[
+				"p",
+				"projects"
+			],
+			[
+				"t_t",
+				"t_type"
+			],
+			[
+				"Pr",
+				"ProjectTask"
+			],
+			[
+				"pr",
+				"project"
+			],
+			[
+				"inp",
+				"input-margin"
+			],
+			[
+				"in",
+				"input-padding"
+			],
+			[
+				"Tas",
+				"ProjectTaskType"
+			],
+			[
+				"tt_",
+				"tt_color"
+			],
+			[
+				"tt_c",
+				"tt_color_correct"
+			],
+			[
+				"task_",
+				"task_types_colors"
+			],
+			[
+				"ProjectTas",
+				"ProjectTaskType"
+			],
+			[
+				"mem",
+				"members_ids"
+			],
+			[
+				"is",
+				"is_manager"
+			],
+			[
+				"pass",
+				"password_new"
+			],
+			[
+				"mute",
+				"muted-color"
+			],
+			[
+				"Proj",
+				"ProjectMember"
+			],
+			[
+				"P",
+				"ProjectMember"
+			],
+			[
+				"project",
+				"project_active"
+			],
+			[
+				"proje",
+				"project_manager"
+			],
+			[
+				"base-",
+				"base-padding"
+			],
+			[
+				"base",
+				"base-padding"
+			],
+			[
+				"data-c",
+				"data-common"
+			],
+			[
+				"data-li",
+				"data-limit"
+			],
+			[
+				"data-ch",
+				"data-chief-more"
+			],
+			[
+				"data-st",
+				"data-student-for"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"spe",
+				"specialist_class"
+			],
+			[
+				"req",
+				"request_type"
+			],
+			[
+				"class_ge",
+				"class_get_global_childs"
+			],
+			[
+				"owl",
+				"owl_content"
+			],
+			[
+				"onth",
+				"onthology_relations_assertions"
+			],
+			[
+				"on",
+				"onthology_relations_assertions"
+			],
+			[
+				"jobs",
+				"jobs_global"
+			],
+			[
+				"job",
+				"job_instances"
+			],
+			[
+				"insta",
+				"instance"
+			],
+			[
+				"sy",
+				"sympthoms"
+			],
+			[
+				"sym",
+				"sympthom"
+			],
+			[
+				"rela",
+				"relation"
+			],
+			[
+				"type",
+				"typename"
+			],
+			[
+				"onthology_re",
+				"onthology_relations"
+			],
+			[
+				"onthology_rela",
+				"onthology_relations_assertions"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"уч",
+				"учреждение"
+			],
+			[
+				"ch",
+				"childs"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"ins",
+				"instance"
+			],
+			[
+				"тка",
+				"тканях"
+			],
+			[
+				"Общ",
+				"Общие"
+			],
+			[
+				"spa",
+				"space_corr"
+			],
+			[
+				"ont",
+				"onthology_classes"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"ow",
+				"owl_content"
+			],
+			[
+				"Сто",
+				"Стоматологическая_поликлиника"
+			],
+			[
+				"Об",
+				"Общая_поликлиника"
+			],
+			[
+				"По",
+				"Детская_поликлиника"
+			],
+			[
+				"Дис",
+				"Диспансер_психоневрологический"
+			],
+			[
+				"Ди",
+				"Диспансер_онкологический"
+			],
+			[
+				"Пси",
+				"Психиатрическая_городская_больница"
+			],
+			[
+				"Нар",
+				"Наркологическая_городская_больница"
+			],
+			[
+				"Дет",
+				"Детская_городская_больница"
+			],
+			[
+				"Обща",
+				"Общаяя_поликлиника"
+			],
+			[
+				"Псих",
+				"Диспансер_психоневрологический"
+			],
+			[
+				"Де",
+				"Детская_поликлиника"
+			],
+			[
+				"Инфе",
+				"Инфекционная_городская_больница"
+			],
+			[
+				"data",
+				"data_properties"
+			],
+			[
+				"ob",
+				"object_properties"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"form",
+				"form-padding"
+			],
+			[
+				"mu",
+				"muted-color"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"rest",
+				"restore_time"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"saveRe",
+				"saveRequest"
+			],
+			[
+				"reque",
+				"requestId"
+			],
+			[
+				"work",
+				"workMode"
+			],
+			[
+				"Requs",
+				"RequestsMusicC"
+			],
+			[
+				"Req",
+				"RequestImage"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			],
+			[
+				"wor",
+				"worksheets"
+			],
+			[
+				"capt",
+				"captcha"
+			],
+			[
+				"ke",
+				"keycode"
+			],
+			[
+				"cap",
+				"captcha"
+			],
+			[
+				"pas",
+				"passwordHash"
+			],
+			[
+				"passw",
+				"passwordNew1"
+			],
+			[
+				"error",
+				"errorMsg"
+			],
+			[
+				"sour",
+				"source_files"
+			],
+			[
+				"concer",
+				"concertmanName"
+			],
+			[
+				"grou",
+				"groupName"
+			],
+			[
+				"concert",
+				"concertmanName"
+			],
+			[
+				"reques",
+				"requestN"
+			],
+			[
+				"ed",
+				"editorComment"
+			],
+			[
+				"works",
+				"worksExists"
+			],
+			[
+				"stu",
+				"studyPostRegion"
+			],
+			[
+				"pay",
+				"paymentId"
+			],
+			[
+				"contact",
+				"contactEmail"
+			],
+			[
+				"post",
+				"postAddress"
+			],
+			[
+				"can",
+				"canBePublished"
+			],
+			[
+				"payme",
+				"payment_id"
+			],
+			[
+				"full_",
+				"full_years"
+			],
+			[
+				"full",
+				"full_years"
+			],
+			[
+				"Comm",
+				"CommonListEntry"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"auth",
+				"authExists"
+			],
+			[
+				"Wo",
+				"WorkSheetsC"
+			],
+			[
+				"err",
+				"errorThrown"
+			],
+			[
+				"tea",
+				"teacherFullName"
+			],
+			[
+				"requ",
+				"request_id"
+			],
+			[
+				"de",
+				"deleteFile"
+			],
+			[
+				"wo",
+				"worksheet"
+			],
+			[
+				"add",
+				"additional"
+			],
+			[
+				"workshe",
+				"worksheets"
+			],
+			[
+				"file_pho",
+				"file_photo_full"
+			],
+			[
+				"filePho",
+				"filePhotoPortrait"
+			],
+			[
+				"file_",
+				"file_birthday"
+			],
+			[
+				"contactP",
+				"contactPhone"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views.py",
+			"settings":
+			{
+				"buffer_size": 2562,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"file co",
+				"File: Copy Path"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP: Generate",
+				"PHP: Generate Getters"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"istall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: Complete"
+			],
+			[
+				"Task",
+				"Tasks: New"
+			],
+			[
+				"Tas",
+				"Tasks: New document"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Python27/Scripts/hackathon",
+		"/C/Python27/Scripts/hackathon/app",
+		"/C/Python27/Scripts/hackathon/app/templates",
+		"/C/Python27/Scripts/hackathon/hackathon"
+	],
+	"file_history":
+	[
+		"/C/Python27/Scripts/hackathon/app/models.py",
+		"/C/Python27/Scripts/tm/taskmanager/settings.py",
+		"/C/Python27/Scripts/hackathon/hackathon/settings.py",
+		"/C/Python27/Scripts/hackathon/app/templates/index.tpl",
+		"/D/Рабочий стол/curl-7.48.0/README",
+		"/C/Python27/Lib/site-packages/watson_developer_cloud/watson_developer_cloud_service.py",
+		"/C/Python27/Scripts/tm/tmapp/views.py",
+		"/C/Python27/Scripts/tm/tmapp/templates/user/private.tpl",
+		"/C/Python27/Scripts/tm/tmapp/templates/user/signin.tpl",
+		"/C/Python27/Scripts/hackathon/hackathon/urls.py",
+		"/C/Python27/Scripts/tm/taskmanager/urls.py",
+		"/D/Рабочий стол/Marsianskie-hroniki.html",
+		"/C/Python27/Scripts/taskmanager/tmapp/views.py",
+		"/C/Python27/Scripts/taskmanager/manage.py",
+		"/D/OpenServer/userdata/config/Apache-2.2_server.conf",
+		"/C/Python27/Scripts/taskmanager/taskmanager/wsgi.py",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/tasks-done.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/sql/project.sql",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/task-delete.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/index.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/task-types.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/tasks-active.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/tasks-rejected.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/tasks-new.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/task-create.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/task-edit.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/static/assets/css/core.scss",
+		"/C/Python27/Scripts/taskmanager/tmapp/static/assets/css/styles.scss",
+		"/C/Python27/Scripts/taskmanager/tmapp/static/assets/css/resources/global.scss",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/projects.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/static/assets/css/icons.css",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/html.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/task-type-delete.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-member-delete.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/task-error.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templates/forum/topic.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/models.py",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/users.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-edit.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-member.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-members.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-delete.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/index.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/project-create.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/user-create.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project/tasks-current.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/project.tpl",
+		"/C/Python27/Scripts/forum/forumapp/models.py",
+		"/C/Python27/Scripts/taskmanager/taskmanager/settings.py",
+		"/C/Python27/Scripts/forum/forumapp/views.py",
+		"/C/Python27/Scripts/forum/forum/urls.py",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/task-type-edit.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/user-manage.tpl",
+		"/C/Python27/Scripts/taskmanager/taskmanager/urls.py",
+		"/D/OpenServer/domains/nf/system/templates/analytics.php",
+		"/D/OpenServer/domains/nf/assets/css/styles.scss",
+		"/D/OpenServer/domains/nf/assets/css/global.scss",
+		"/D/OpenServer/domains/nf/assets/css/analytics.scss",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/user-manage-group.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/user/private.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/user/user-create.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage/user-create.py",
+		"/C/Python27/Scripts/taskmanager/tmapp/templatetags/app_filters.py",
+		"/C/Python27/Scripts/blog/blogapp/templates/blog/post_del.tpl",
+		"/C/Python27/Scripts/blog/blogapp/views.py",
+		"/D/Рабочий стол/s.sql",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/user/signin.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/sql/initial.sql",
+		"/C/Python27/Scripts/taskmanager/tmapp/migrate.sql",
+		"/D/OpenServer/domains/ilecture.desktop/templates/lecturer/event.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/static/assets/js/app.js",
+		"/D/OpenServer/domains/ilecture.desktop/assets/javascript/app.js",
+		"/D/OpenServer/domains/ilecture.desktop/assets/css/styles.scss",
+		"/C/Python27/Scripts/forum/forumapp/templates/index.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templates/html.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templatetags/app_filters.py",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/user/signup.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templates/forum/post_add.tpl",
+		"/D/OpenServer/domains/ilecture.desktop/templates/lecturer/event-sets.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templates/forum/section_edit.tpl",
+		"/C/Python27/Scripts/blog/blogapp/templates/blog/post_add.tpl",
+		"/C/Python27/Scripts/blog/blogapp/templates/blog/post.tpl",
+		"/C/Python27/Scripts/taskmanager/tmapp/templates/manage.tpl",
+		"/C/Python27/Scripts/forum/forumapp/templates/forum/post_edit.tpl",
+		"/D/OpenServer/domains/tools/index.php",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/Course.m",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Отчёт/Генератор титульных листов/data.json",
+		"/D/Games/Steam/steamapps/common/Subnautica/SNAppData/SavedGames/slot0000/gameinfo.json",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Gui/gui.m",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Отчёт/Генератор титульных листов/css/document.scss",
+		"/D/gen/index.htm",
+		"/D/gen/css/document.scss",
+		"/D/gen/data.json",
+		"/D/gen/css/forms.scss",
+		"/D/Рабочий стол/Генератор отчёта/index.htm",
+		"/D/Рабочий стол/Генератор отчёта/css/document.scss",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Отчёт/Генератор титульных листов/index.htm",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/model.backup.02.m",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/model.m",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/model — копия.m",
+		"/D/OpenServer/domains/tools/owl/index.php",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/calculations.3.1.mat",
+		"/C/Users/Evgeniy/Dropbox/Учёба/Моделирование систем/Course.Full/calculations.2.1.mat",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/На вики/Проект/PHP-сервер/index.php",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/На вики/Проект/index.php",
+		"/D/OpenServer/domains/tools/SPARQL-master/example/dbpedia.php",
+		"/D/OpenServer/domains/tools/owl/assets/css/resources/global.scss",
+		"/D/OpenServer/domains/tools/owl/webvowl/index.html",
+		"/D/OpenServer/domains/tools/owl/webvowl/css/webvowl.app.css",
+		"/D/OpenServer/domains/tools/owl/assets/css/styles.scss",
+		"/D/OpenServer/domains/tools/owl/webvowl/css/webvowl.css",
+		"/D/OpenServer/domains/tools/owl/webvowl/js/webvowl.js",
+		"/D/OpenServer/domains/tools/owl/assets/css/resources/global.css",
+		"/D/OpenServer/domains/tools/assets/css/styles.scss",
+		"/D/OpenServer/domains/tools/owl/webvowl/js/webvowl.app.js",
+		"/D/OpenServer/domains/tools/owl/webvowl/data/sioc.json",
+		"/D/OpenServer/domains/tools/owl/webvowl/data/template.json",
+		"/D/OpenServer/domains/tools/owl/data/med_test.json",
+		"/D/OpenServer/domains/tools/owl/catalog-v001.xml",
+		"/D/OpenServer/domains/fest/assets/css/styles.scss",
+		"/D/OpenServer/domains/tools/.htaccess",
+		"/D/OpenServer/domains/tools/owl/SPARQL/Endpoint.php",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/med.owl",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/med.rdf",
+		"/C/apache-jena-3.0.1/jena-log4j.properties",
+		"/D/OpenServer/domains/tools/owl/med_test.rdf",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/rdf123.owl",
+		"/C/Users/Evgeniy/Dropbox/Наташа (Турция)/rdf12_3.owl"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 202.0,
+		"where_history":
+		[
+			"C:\\Python27\\Scripts\\taskmanager\\tmapp",
+			"C:\\Users\\Evgeniy\\Dropbox\\Учёба\\Моделирование систем\\Course",
+			"D:\\Games\\Minecraft\\mods\\mcheli\\assets\\mcheli\\weapons",
+			"D:\\Games\\S.T.A.L.K.E.R. - Call of Pripyat\\gamedata",
+			"D:\\OpenServer\\domains\\fest",
+			"D:\\Games\\S.T.A.L.K.E.R. Clear Sky\\unpacker\\unpacked",
+			"D:\\OpenServer\\domains\\fest",
+			"D:\\Документы\\7.62 Temp",
+			"D:\\Документы\\7.62 Temp\\1",
+			"D:\\Документы\\7.62 Temp\\INI\\ITEMS",
+			"D:\\Документы\\7.62 Temp,D:\\Games\\steam\\steamapps\\common\\7.62 Hard Life",
+			"D:\\Документы\\7.62 Temp\\INI,D:\\Документы\\7.62 Temp\\HARDLIFE,D:\\Games\\steam\\steamapps\\common\\7.62 Hard Life\\HardLife",
+			"D:\\Документы\\7.62 Temp\\INI,D:\\Документы\\7.62 Temp\\HARDLIFE",
+			"D:\\Games\\steam\\steamapps\\common\\7.62 Hard Life\\HardLife",
+			"D:\\Документы\\7.62 Temp",
+			"D:\\Документы\\7.62 Temp\\INI",
+			"D:\\Games\\Factorio\\data",
+			"C:\\OpenServer\\domains\\ilecture.desktop",
+			"C:\\Program Files\\Factorio\\data\\base",
+			"C:\\Program Files\\Factorio\\data\\base\\prototypes",
+			"C:\\Program Files\\Factorio\\data\\base\\prototypes\\recipe",
+			"C:\\OpenServer\\domains\\ilecture.desktop\\,-*.php",
+			"C:\\OpenServer\\domains\\ilecture.desktop\\,-C:\\OpenServer\\domains\\ilecture.desktop\\templates-c",
+			"C:\\OpenServer\\domains\\ilecture.desktop\\",
+			"C:\\OpenServer\\domains\\ilecture\\",
+			"C:\\OpenServer\\domains\\ilecture\\application\\templates",
+			"C:\\OpenServer\\domains\\ilecture",
+			"C:\\WebServers\\home\\ilecture\\www",
+			"C:\\WebServers\\home\\localhost\\www\\Tools\\phpmyadmin",
+			"C:\\WebServers\\home\\ilecture\\www",
+			"C:\\WebServers\\home\\de_tests\\www",
+			"C:\\Program Files (x86)\\GSC Game World\\S.T.A.L.K.E.R. - Clear Sky\\gamedata\\scripts",
+			"C:\\Program Files (x86)\\GSC Game World\\S.T.A.L.K.E.R. - Clear Sky\\gamedata\\configs",
+			"C:\\WebServers\\home\\de_tests\\www",
+			"D:\\Dropbox\\ИТМО\\Технологии программирования\\Образцы работ",
+			"C:\\WebServers\\home\\mh\\www\\application",
+			"C:\\WebServers\\home\\mh\\www",
+			"C:\\WebServers\\home\\project\\www",
+			"C:\\WebServers\\home\\project\\www\\assets",
+			"C:\\WebServers\\home\\project\\www"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ExecutorH",
+			"s==s",
+			"btn-big",
+			"e5ca",
+			"  ",
+			"\n\n    # Список текущих задач\n    if task_status == ProjectTask.STATUS_CURRENT:\n        return render(request, 'project/tasks-current.tpl', {\n            'title'       : u'Главная',\n            'is_tm_admin' : is_tm_admin(request.user),\n            'statuses'    : ProjectTask.get_statuses(),\n            'project'     : project,\n            'pm'          : pm,\n            })",
+			"projects",
+			"notify",
+			"taskt",
+			"icon-create",
+			"manage_project_member",
+			"manage_project_member_delete",
+			"redirect",
+			"list",
+			"formBlank",
+			"project_id",
+			"\n                {% if error_code == 4 %}\n                    <div class='alert alert-error'>Email-адрес некорректен</div>\n                {% endif %}",
+			"title",
+			"big",
+			"                                         #",
+			"dele",
+			"title {",
+			"tab",
+			"app_filters",
+			"filter",
+			"$input-width",
+			"toggle-box",
+			"project_active",
+			"check",
+			"title {",
+			"user",
+			"title {",
+			"!impo",
+			"separa",
+			"title",
+			"perms",
+			"red",
+			"T = ",
+			"   ",
+			"    ",
+			"d3-graph",
+			"d3-gra",
+			"14",
+			"jobs",
+			"data-plan",
+			"\n\n		<div class='content' id='d2-topic' style='height:39pt;'>\n			<div class='line'></div>\n			<div class='title'>1. Наименование темы:</div>\n			<div class='text'></div>\n		</div>",
+			"separator",
+			"for ",
+			"Unified",
+			"onthology_url",
+			"font-size:20px;",
+			"h3",
+			"font-fa",
+			"svg",
+			"\\n",
+			"Endpoint",
+			"onthology_short_name",
+			"onthology_name",
+			"owl_content",
+			"ObjectPropertyAssertion",
+			"domen",
+			"get_global_childs",
+			"is_in_onthology",
+			"class_has_childs",
+			"instances",
+			"Симптом",
+			"parent",
+			"'parent' => array()",
+			"childs",
+			"'parent' => 'Специалист'",
+			"' parent'",
+			"array()",
+			"childs",
+			"_",
+			"Диспансер_психонервологический",
+			"Диспансер_противотуберкулёзный",
+			"Диспенсер",
+			"Общаяя_поликлиника",
+			"Cухость",
+			"Нарушение_обмена_веществ",
+			"Местные",
+			"#Медицинское_",
+			"Поликлиника",
+			"#Поликлиника\"",
+			"#Боль\"",
+			"Боль",
+			"job",
+			"queve_has_next",
+			"no",
+			"Терапевт_1!",
+			"Терапевт_",
+			"round",
+			"Length",
+			"range",
+			"milk",
+			"for",
+			"restore",
+			"contai",
+			"advan",
+			"MC-",
+			"copper",
+			"tin",
+			"copper",
+			"true",
+			"copper",
+			"ore",
+			"true",
+			"error",
+			"size",
+			"infinibow",
+			"select",
+			"crop",
+			"lava",
+			"bone",
+			"315",
+			"sugar",
+			"289",
+			"powder",
+			"upgrade",
+			"publish",
+			"log",
+			"studyName",
+			"postCity",
+			"cityName",
+			"postRegion",
+			"жилет",
+			"7.62x39",
+			"7.62"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"s == s",
+			" ",
+			"icon-edit",
+			"blue",
+			"; ",
+			"7",
+			"comment",
+			"Ultimate",
+			"onthology_uri",
+			"font-size:18px;",
+			"<br/>",
+			"onthology_name",
+			"onthology_url",
+			"rdf_content",
+			"class_get_global_childs",
+			"class_in_onthology",
+			"onthology_instances",
+			"parents",
+			"'parent' => array('')",
+			"parent",
+			"'parent' => array('Специалист')",
+			"'parent'",
+			"'Специалист'",
+			" parent",
+			" ",
+			"Диспансер_психоневрологический",
+			"Диспансер_противотуберкулезный",
+			"Диспансер",
+			"Общая_поликлиника",
+			"Сухость",
+			"Терапевт_1",
+			"false",
+			"cityName",
+			"postCity",
+			"{$regionName}",
+			"music",
+			"isEmptyHtml",
+			"music",
+			"Далее",
+			"music",
+			"$temp[0]",
+			"music",
+			"Заявка {$globalTitleAdd}",
+			"{$rowspan}",
+			"r",
+			"3",
+			"0.007",
+			"music",
+			"requests_music",
+			"music",
+			"Music",
+			"music",
+			"Music",
+			"music",
+			"post_region_id",
+			"\\n",
+			"",
+			"!($request->getOwner()->getId() == $cPerson->getId() || ($cPerson->isEditor() && $request->getStatus() > 1))",
+			"!($request->getOwner()->getId() == $cPerson->getId() || ($cPerson->isEditor() && $request->getStatus() > 2))",
+			"!($request->getOwner()->getId() == $cPerson->getId() || $cPerson->isEditor())",
+			"TeacherPhoto",
+			"teacherPhoto",
+			"work",
+			"Image",
+			"works",
+			"work",
+			"image",
+			"work",
+			"fileTeacherPhoto",
+			"Image",
+			"image",
+			"name",
+			"workId",
+			"works",
+			"Скачать",
+			"",
+			"photoFull",
+			"PhotoFull",
+			"PhotoPortrait",
+			"photoPortrait",
+			"Durability",
+			"durability",
+			"Medical",
+			"medical",
+			"Medical",
+			"medical",
+			"Birthday",
+			"BlockUpload",
+			"str1",
+			"arr1",
+			"",
+			"contactPosition",
+			"contactEmail",
+			"contactPhone",
+			"",
+			"phone_mobile",
+			"phone_home",
+			";",
+			"Ammo box 7.62x39 Norinco",
+			"requests_image_",
+			"    ",
+			"h4",
+			",",
+			"script.on_",
+			"game.surfaces",
+			"script.on_",
+			" class='resizeble'",
+			"class='resizeble'",
+			"1.2",
+			"	",
+			"../../fonts/",
+			"<a href='javascript://' onClick=\"toggleHide('#eventInfo', '#eventInfoToggle');\" title='Дополнительно'>Информация <i class='icon-expand-more' id='eventInfoToggle'></i></a>",
+			"",
+			"\n\n@mixin standartShadow () {\n	@include boxShadow((0 1px 1px 0 rgba(0, 0, 0, 0.2)));\n}",
+			"$pieChart-second-color",
+			"prop(",
+			"item-info",
+			"Белозубов Александр Владимирович",
+			"Лисицына Любовь Сергеевна",
+			"Аудитория",
+			"schedule-info item",
+			"schedule-info",
+			"after-timebox",
+			"timebox",
+			"item",
+			"colored color-wrong",
+			"colored color-wron",
+			"ilecture_event_cardiogram"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "python"
+							},
+							"function_name_status_row": 40,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hackathon.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"model.",
+				"application\\core\\model.php"
+			],
+			[
+				"sitenavigation",
+				"kernel/libs/siteNavigation.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Python27\\Scripts\\blog\\blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

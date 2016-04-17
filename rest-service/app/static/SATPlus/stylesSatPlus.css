@@ -1,0 +1,263 @@
+body{
+	background: #efefef;
+	font-size: 13pt;
+	font-family: "Tahoma";
+}
+
+.all-container{	
+	/*background: white;*/
+	background: #efefef;
+	width: 720px;
+	height: 600px;
+	margin: 6% auto;
+}
+
+/*____________________START_PAGE__________________*/
+
+.start-page{
+	background: url(images/back.jpg);  
+	width: 100%;
+	height: 600px;
+}
+
+.audio{
+	visibility: hidden;
+}
+
+.sound-start{
+	margin-left: 690px;
+	margin-top: 5px;
+}
+
+.some-control{
+	position: absolute;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.some-control:hover{
+	opacity: 0.7;	
+}
+
+.sound-main{
+	left: 670px;
+	top:4px;
+	width: 20px;
+}
+
+.exit-control{
+	left: 697px;
+	top: 4px;
+	width: 15px;
+}
+
+.desc-container{
+	width: 100%;
+	height: 75%;
+	border-radius: 20px;	
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+
+}
+
+.training-name{
+	font-size: 50pt;
+	font-weight: bold;
+	padding-top: 3%;
+	text-align: center;
+	color: #000;
+	text-shadow: 0 0 15px white;
+}
+
+.training-description{
+	margin-top: 2%;
+	margin: 2%;
+	padding: 1%;
+	background: rgba(255,255,255,0.5);
+	border: 1px dashed #000;
+	text-align: justify;
+}
+
+.play-button{
+	margin-top: 3%;
+	margin-left: 40%;
+	width: 120px;
+	height: 120px;
+	background: #3c814c;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	font-family: 'Times New Roman';
+	border: 2px solid #397947;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	cursor:pointer;
+}
+
+.play-button:hover{
+	background: #4ca25f;
+}
+
+.play-arrow{
+	color: white;
+	display: inline-block;
+	margin: 13% 23%;
+	font-size: 60pt;
+	text-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+/*____________________MAIN_PAGE__________________*/
+
+.main-page{
+	display: none;
+}
+
+.description{
+	width: 100%;
+	border: 1px solid #87ceff;
+	background: #faebd7;
+	height: 140px;
+	font-size: 12.7pt;
+}
+
+.description-content{
+	padding: 18px 10px 7px 10px;
+	/*____________*/
+	position: relative;
+}
+
+.desc-in{
+	text-align: justify;
+}
+
+.main-panel{
+	background-image: url(images/backgr.jpg);
+	width: 720px;
+	height: 460px;
+	position:relative;
+}
+
+.main-panel .picture{
+	background-image: url(images/backgr1.jpg);
+	opacity: 0;
+	width: 720px;
+	height: 460px;
+}
+
+.level-display{
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 7px;
+	color: #15327f;
+	font-size: 15pt;
+}
+
+.level-num{
+	font-weight: bold;
+}
+
+.abs-none{
+	position: absolute;
+	display: none;
+}
+
+.first-circle{
+	border: 2px solid #325b84;
+	width:20px;
+	height:20px;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	box-shadow: 0 0 7px rgba(255,255,255,0.7);
+	-moz-box-shadow: 0 0 7px rgba(255,255,255,0.7); 
+}
+
+.table-buttons{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.table-buttons td{
+	padding: 0 10px 0 0;
+	border: 0px solid #fff;
+	display: none;
+}
+
+.image-button{
+	width: 50px;
+	height: 50px;
+	background: #c4dedf; 
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	cursor: pointer;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5); 
+}
+
+.image-button:hover{
+	background: #daf7f8;
+}
+
+.image-for-button{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+
+.block-end{
+	font-size: 30pt;
+	font-weight: bold;
+	font-style: italic;
+	color:#00217a;
+	opacity: 0.7;
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0 0 7px rgba(255,255,255,0.9);
+	display: none;
+	z-index: 10;
+}
+
+/*____________IMAGE-BUTTONS______________*/
+.table-buttons td .image-for-button{
+	width: 40px;
+	height: 30px;
+	margin: 7px 2px 0px 4px;
+}
+
+
+/*____________END_OF_IMAGE_BUTTONS__________*/
+
+.second-circle{
+	border: 2px solid #36648b;
+	width: 40px;
+	height: 40px;
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	position:absolute;
+	display:none;
+	box-shadow: 0 0 7px rgba(255,255,255,0.7);
+	-moz-box-shadow: 0 0 7px rgba(255,255,255,0.7); 
+}
+
+.bubbles{
+	background-image: url(images/bubblesNew.png);
+	width: 30px;
+	height: 30px;
+}
+
+#stoneContainer{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width: 720px;
+	height: 460px;
+}
+
+.stone{
+	position: absolute;
+}

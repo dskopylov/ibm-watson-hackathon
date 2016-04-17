@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>N-Back Game</title>
+		<link type="text/css"  rel="stylesheet" href="stylesNBack.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="nBack.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore;
+			var personTrainingResult="";
+			var personTrainingLevel=2;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document).keyup(function(event){
+					keyboardHandler(event);
+				});
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+				<div class="desc-container">
+					<div class="training-name">N-Back Game</div>
+					<div class="training-description">В тренинге N-Back Вам необходимо запоминать положение и цвет элемента, показанного n-позиций назад (1-back - 1 позицию назад, т.е. непосредственно перед данным предъявлением, 2-back - 2 позиции назад и так далее). Если Вам предъявляется символ в том же положении или с тем же цветом, что и n-позиций назад, Вам нужно подтвердить повтор положения и/или цвета нажатием клавиш "N" и "Z" соответственно. Правильный ответ будет обозначаться зеленым цветом, неправильный - красным. Каждый блок состоит из 20+n предъявлений символов. Если число верных ответов составляет 80 и более процентов, Ваш уровень будет увеличен. Если Вы трижды завершили блок с показателем менее 50%, Ваш уровень будет снижен. Задача тренинга - достичь как можно более высокого уровня. Для наибольшего эффекта от тренинга, в течение дня рекомендуется проходить порядка 20 блоков, что занимает около 25 минут. Каждый новый день Вы будете начинать со стартового уровня (2-back), но развив в ходе тренинга способности к удержанию в памяти стимулов, Вам будет все легче продвигаться к более высоким уровням. Для начала выполнения тренинга нажмите кнопку.</div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page border">
+
+					<div class="main-controls">
+						<img id="exit" class="some-control exit-control" src="images/close.png" onclick="exitHandler()">
+					</div>
+					
+					<div class="level-display">Тренинг "Dual <span id="level" class="level-num">1</span>-back"</div>
+
+					<table class="dual-table">
+						<tr>
+							<td><div id="square1" class="square"></div></td>
+							<td><div id="square2" class="square"></div></td>
+							<td><div id="square3" class="square"></div></td>
+						</tr>
+						<tr>
+							<td><div id="square4" class="square"></div></td>
+							<td><div id="square5" class="square"></div></td>
+							<td><div id="square6" class="square"></div></td>
+						</tr>
+						<tr>
+							<td><div id="square7" class="square"></div></td>
+							<td><div id="square8" class="square"></div></td>
+							<td><div id="square9" class="square"></div></td>
+						</tr>
+					</table>
+
+					<div id="levelInfo" class="info-container"></div>
+					<div id="percentCont" class="percent-container">Верно: <span id="percentInfo"></span></div>
+
+					<div class="remaining-stimuli-container">
+						<div id="lifeCont">
+							<img id="life3" class="life" src="images/life-heart.png">
+							<img id="life2" class="life" src="images/life-heart.png">
+							<img id="life1" class="life" src="images/life-heart.png">
+						</div>
+						<div class="stimuli-left">Осталось: <br><span id="remainS">20 стимулов</span></div>
+					</div>
+
+					<div class="correct-container">
+						<div id="positionC">Позиция (N)</div>
+						<div id="colorC">Цвет (Z)</div>
+					</div>
+
+					<div class="description">
+						<div id="desc0" class="desc-in">Нажмите клавишу "Пробел" для старта.</div>
+						<div id="desc1" class="desc-in">Нажмите клавишу "Пробел" для продолжения.</div>
+						<div id="desc2" class="desc-in">Вы действительно хотите завершить тренинг? <br>Нажмите "Х" еще раз.</div>
+					</div>
+
+			</div>
+
+		</div>
+	</body>
+</html>

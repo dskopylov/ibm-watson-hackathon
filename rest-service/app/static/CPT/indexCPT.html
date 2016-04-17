@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CPT</title>
+		<link type="text/css"  rel="stylesheet" href="stylesCPTExtended.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.10.4.custom.js"></script>
+		<script type="text/javascript" src="jstat/jstat.min.js"></script>
+		<script type="text/javascript" src="cptExtended.js"></script>
+		<script type="text/javascript" src="cptCalculateExtended.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore;
+			var personTrainingResult="";
+			var personTrainingLevel=1;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$(document).keyup(function(event){
+					keyboardHandler(event);
+				});
+
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+				<div class="desc-container">
+					<div class="training-name">Continuous Performance Test</div>
+					<div class="training-description">Вам предлагается пройти тест, заключающийся в реагировании на появляющиеся на экране символы. На короткое время Вам будут показаны буквы. Ваша задача состоит в нажатии клавиши "Пробел" для каждой буквы за исключением "Х". НЕ реагируйте на "Х"-раздражители.  Для начала выполнения теста нажмите кнопку.</div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page border">
+
+				<div class="description">
+					<div id="desc0" class="desc-border desc-in">Сначала Вам предлагается пройти тренировку перед выполнением основного задания. Нажимайте "Пробел" как можно быстрее для каждого символа кроме "Х". Для начала выполнения задания нажмите клавишу "Пробел".</div>
+					<div id="desc1" class="desc-border desc-in">К сожалению, вы ошиблись при выполнении тренировочного задания. Пройдите его еще раз, продварительно повторно прочитав инструкцию: Вам необходимо реагировать на все буквы КРОМЕ "Х". НЕ нажимайте "Пробел", если показанный символ является буквой "Х".</div>
+					<div id="desc2" class="desc-border desc-in">Вы успешно завершили тренировочное задание. Теперь время приступить к основному блоку. Вам будет показано 360 символов с различными временными интервалами между ними. Нажимайте "Пробел" как можно быстрее для любого символа КРОМЕ "Х".</div>
+					<div id="desc3" class="desc-border desc-in">Тест завершен. Оцените, пожалуйста, пройденное испытание и нажмите кнопку "Готово": </div>
+				</div>
+
+				<div id="taskCont" class="task-container">
+					<div id="taskDisplay" class="task-display"></div>
+				</div>
+
+				<div id="sliderPage">
+					<div id="q1" class="sliders-on-page">Отметьте, насколько сложным для Вас сегодня был когнитивный тест, поставив слайдер в наиболее подходящее место шкалы между двумя крайними значениями</div>
+					<div class="ui-slider">
+						<div id="sl1"></div>
+					</div>
+					<table class="slider-table">
+						<tr>
+							<td>Чрезмерно прост</td>
+							<td>Чрезмерно сложен</td>
+						</tr>
+					</table>
+					<div id="q2" class="sliders-on-page">Отметьте, насколько Вам сегодня понравился когнитивный тест, поставив слайдер в наиболее подходящее место шкалы между двумя крайними значениями</div>
+					<div class="ui-slider">
+						<div id="sl2"></div>
+					</div>
+					<table class="slider-table">
+						<tr>
+							<td>Совершенно не понравился</td>
+							<td>Очень понравился</td>
+						</tr>
+					</table>
+					<div class="done_button" onclick="getSliderInfo()">Готово</div>
+				</div>
+
+			</div>
+				
+			
+
+			<div id="exitPage" class="main-page border">
+
+				<div class="exit-page">
+					Спасибо за прохождение теста!
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Math Processing Task</title>
+		<link type="text/css"  rel="stylesheet" href="stylesMathProc.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="mathProc.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore;
+			var personTrainingResult="";
+			var personTrainingLevel=1;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document).keyup(function(event){
+					keyboardHandler(event);
+				});				
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+				<div class="desc-container">
+					<div class="training-name">Math Processing Task</div>
+					<div class="training-description">В данном тесте Вам необходимо определить будет ли являться результат показанного на экране математического выражения меньше пяти, или же он будет больше пяти. Ответ необходимо указать с помощью нажатий на клавиатуре клавиш "S" или "J" соответственно. На каждый блок заданий, отличающихся между собой количеством слагаемых, отводится по 3 минуты. Следующее задание появляется после ответа на текущее задание или по истечении времени на него. Для начала выполнения теста нажмите кнопку.</div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page border">
+
+				<div class="description">
+					<div id="desc0" class="desc-border desc-in">В текущем блоке выражения будут содержать по <span id="numbers"></span> числа. Ограничение по времени для каждого выражения – <span id="deadline"></span> секунды. Желаем удачи! Для начала выполнения задания нажмите клавишу "Пробел".</div>
+				</div>
+
+				<div class="task-container">
+					<div id="taskDisplay" class="task-display"></div>
+				</div>
+
+				<div id="correct" class="correct"></div>
+
+				<div id="infoContainer">
+					<div id="less" class="info-button less-info">Меньше пяти (S)</div>					
+					<div id="greater" class="info-button greater-info">Больше пяти (J)</div>
+				</div>
+
+			</div>
+
+			<div id="exitPage" class="main-page border">
+
+				<div class="exit-page">
+					Спасибо за прохождение теста!
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+</html>

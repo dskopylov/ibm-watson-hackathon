@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SATPlus</title>
+		<link type="text/css"  rel="stylesheet" href="stylesSatPlus.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="satplus.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore;
+			var personTrainingResult="";
+			var personTrainingLevel=1;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(window).resize(function(){
+				panelX=$("#mainPanel").offset().left;
+				panelY=$("#mainPanel").offset().top;
+			});
+			$(document).ready(function(){
+				$("#audioStart").trigger("play");
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page">
+				<!--____________START-PAGE___________-->
+				<div class="desc-container">
+					<img id="soundStartPage" class="some-control sound-start" src="images/soundOn.png" onclick="SatPlus.audioMute('startPage')">
+					<div class="training-name">SAT Plus</div>
+					<div class="training-description">В тренинге SATPlus Вам необходимо отслеживать перемещения по экрану нескольких существ (хищники - акулы и жертвы - рыбки). Каждая акула гонится за какой-либо рыбкой и, догнав, съедает ее. Акула может съесть и другую рыбку, встретив ее на своем пути. Ваша задача внимательно следить за существами и отвечать на появляющиеся вопросы трех типов. В каждом блоке Вам будет дано по 15 вопросов. В случае, если Вы дадите более 70% верных ответов, Ваш уровень будет увеличен, а если меньше 40% - снижен. С увеличением уровня тренинг будет усложняться: на разных уровнях будет увеличиваться скорость движения существ, насыщенность фона или количество рыбок. Ваша задача достичь как можно более высокого уровня. Рекомендуется тратить на тренинг порядка 25 минут в день (около 20 блоков). Каждый новый день Ваш тренинг будет начинаться с наиболее простого уровня с максимально достигнутым накануне количеством рыбок. Нажмите кнопку, чтобы начать тренинг.</div>
+					<div class="play-button" onclick="SatPlus.startTraining()"><span class="play-arrow">&#9658;</span></div>
+					<audio id="audioStart" class="audio" loop="loop">
+						<source src="images/oceanStart.ogg" type="audio/ogg; codecs=vorbis">
+						<source src="images/oceanStart.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page">
+				<div class="description">
+					<div class="description-content">
+
+						<div class="main-controls">
+							<img id="soundMainPage" class="some-control sound-main" src="images/soundOn.png" onclick="SatPlus.audioMute('mainPage')">
+							<img id="exit" class="some-control exit-control" src="images/close.png" onclick="SatPlus.exitHandler()">
+						</div>
+
+
+						<!-- div for results -->
+						<div id="desc0" class="desc-in"></div>
+
+						<!-- description divs -->
+						<div id="desc1" class="desc-in">В первом типе заданий Вам необходимо следить за передвижениями существ, после чего указать расположение каждого из них, кликнув левой кнопкой мыши в нужном месте. Щелкните, чтобы начать.</div>
+						<div id="desc2" class="desc-in">Щелкните в месте расположения каждого из существ.</div>
+
+						<div id="desc3" class="desc-in">Во втором типе заданий Вам будет показан круг, обозначающий место, где располагалось то или иное существо. Вам нужно будет указать, кто именно из существ находился в данном месте. Щелкните мышкой, чтобы начать.</div>
+						<div id="desc4" class="desc-in">Какое из существ находилось в указанном месте?</div>
+
+						<div id="desc5" class="desc-in">В третьем типе заданий Вам необходимо указать, за какой рыбкой охотилась показанная акула. Щелкните мышкой, чтобы начать.</div>
+						<div id="desc6" class="desc-in">Какую из рыбок преследовала акула?</div>
+						<div id="desc7" class="desc-in">Теперь Вы переходите к тренингу. Все три типа заданий будут даваться в случайном порядке. В зависимости от общих результатов в блоке заданий (каждый блок содержит 15 вопросов) будет происходить смена уровня и, соответственно, будет меняться количество существ, их скорость или параметры фона. Щелкните мышкой, чтобы начать.</div>
+
+						<div id="desc8" class="desc-in">Вы действительно хотите завершить тренинг? Нажмите "Х" еще раз.</div>
+						<span id="desc9" class="desc-in"> Для завершения тренинга - нажмите на "Х" в правом верхнем углу.</span>
+
+					</div>
+
+					<table class="table-buttons">
+						<tr>
+							<td id="buttonpred1">
+								<div class="image-button" onclick="SatPlus.setAnswer('pred1')"><img src="images/akula_w.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonpred2">
+								<div class="image-button" onclick="SatPlus.setAnswer('pred2')"><img src="images/akula_b.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonprey1">
+								<div class="image-button" onclick="SatPlus.setAnswer('prey1')"><img src="images/fish_01_1.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonprey2">
+								<div class="image-button" onclick="SatPlus.setAnswer('prey2')"><img src="images/fish1.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonprey3">
+								<div class="image-button" onclick="SatPlus.setAnswer('prey3')"><img src="images/fish2.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonprey4">
+								<div class="image-button" onclick="SatPlus.setAnswer('prey4')"><img src="images/fish3.png" class="image-for-button"></div>
+							</td>
+							<td id="buttonprey5">
+								<div class="image-button" onclick="SatPlus.setAnswer('prey5')"><img src="images/skat.png" class="image-for-button"></div>
+							</td>
+						</tr>
+					</table>
+
+				</div>
+				<div id="mainPanel" class="main-panel" onclick="SatPlus.clickHandler(event)">
+					<div id="bgPicture" class="picture"></div>
+
+					<div id="stoneContainer">
+					</div>
+
+					<div id="endBlock" class="block-end">
+						Блок завершен
+					</div>
+
+					<audio id="audioMain" class="audio">
+						<source src="images/bubble.ogg" type="audio/ogg; codecs=vorbis">
+						<source src="images/bubble.mp3" type="audio/mpeg">
+					</audio>
+
+					<img id="prey1" src='images/fish_01_1.png' class="abs-none">
+					<img id="prey2" src='images/fish1.png' class="abs-none">
+					<img id="prey3" src='images/fish2.png' class="abs-none">
+					<img id="prey4" src='images/fish3.png' class="abs-none">
+					<img id="prey5" src='images/skat.png' class="abs-none">
+					<img id="pred1" src='images/akula_w.png' class="abs-none">
+					<img id="pred2" src='images/akula_b.png' class="abs-none">
+
+					<div id="mark1" class="first-circle abs-none"></div>
+					<div id="mark2" class="first-circle abs-none"></div>
+					<div id="mark3" class="first-circle abs-none"></div>
+					<div id="mark4" class="first-circle abs-none"></div>
+					<div id="mark5" class="first-circle abs-none"></div>
+					<div id="mark6" class="first-circle abs-none"></div>
+					<div id="mark7" class="first-circle abs-none"></div>
+
+					<div id="secondCircle" class="second-circle"></div>
+
+					<div id="bubbles0" class="bubbles abs-none"></div>
+					<div id="bubbles1" class="bubbles abs-none"></div>
+					<div id="bubbles2" class="bubbles abs-none"></div>
+					<div id="bubbles3" class="bubbles abs-none"></div>
+					<div id="bubbles4" class="bubbles abs-none"></div>
+
+					<div id="levelDisp" class="level-display">Уровень: <span id="level" class="level-num">1</span>&#8195;<span id="correctShow">Верно: <span id="percCorrect" class="level-num">100%</span></span></div>
+
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

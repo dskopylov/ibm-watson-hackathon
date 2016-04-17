@@ -1,0 +1,29 @@
+{
+  "name" : "IFMO notify",
+  "version" : "0.1",
+  "description" : "A trivial usage example.",
+  "permissions": [
+    "browsingData",
+    "storage",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background":
+  {
+      "scripts": ["./lib/jquery-2.2.0.min.js", "background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/courses/*/courseware*"],
+      "js": ["./lib/jquery-2.2.0.min.js", "./lib/underscore-min.js", "content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "options_page": "options.html",
+  "manifest_version": 2,
+  "web_accessible_resources": [
+       "images/loading.gif",
+       "inject.js"
+   ]
+}

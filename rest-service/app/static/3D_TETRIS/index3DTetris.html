@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>3D-Tetris</title>
+		<link type="text/css"  rel="stylesheet" href="styles3DTetris.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="tetrisHelperLibrary.js"></script>
+		<script type="text/javascript" src="tetrisMain.js"></script>
+		<script type="text/javascript" src="tetrisThreeLibrary.js"></script>
+		
+		<script type="text/javascript">
+			var personTrainingScore=0;
+			var personTrainingResult="";
+			var personTrainingLevel=0;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document).keydown(function(event){
+					keyboardHandler(event);
+				});
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+
+				<div class="desc-container">
+					<div class="training-name">3D-Tetris</div>
+					<div class="training-description">В тренинге 3D Tetris Вам необходимо набрать как можно большее количество очков, дойдя до максимально возможного уровня. Параллелепипед постепенно заполняется фигурами различной формы. Ваша задача опускать фигуры таким образом, чтобы ряды заполнились полностью и были удалены из параллелепипеда. Вы можете поворачивать фигуры вокруг осей X, Y и Z, нажимая клавиши "Q" и "A", "W" и "S", "E" и "D" соответственно. Ускорить падение фигуры можно при помощи клавиши "Пробел".</div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+					<div class="attention">
+						<table class="attention-table">
+							<tr>
+								<td><img class="attention-img" src="images/attention.png"/></td>
+								<td>Для корректной работы приложения необходимо удостовериться, что Ваш браузер поддерживает WebGL.</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+
+
+			<div id="mainPage" class="main-page border">
+
+				<!--_______________________________MAIN_____________________________________-->
+				<div id="taskDisplay" class="task-display"> 
+					<canvas id="drawPanel" class="draw-panel" width="750" height="750">
+				</div>
+				<!--________________________________________________________________________-->
+
+				<div id="restartGame" class="restart-game"> 
+					<div class="restart-game-text">GAME OVER</div>
+					<div class="restart-game-arrow" onclick="mainFunction()"><img class="restart-game-arrow-img" src="images/restart.png"/></div><!--RESTART-->
+				</div>
+
+				<div id="pauseGame" class="pause-game"> 
+					<div class="pause-game-text">PAUSE</div>
+					<div class="pause-game-img-container" onclick="mainFunction()"><img class="pause-img" src="images/pauseWhite.png"/></div>
+				</div>
+
+				<div class="description">
+					<div id="desc0" class="desc-border desc-in">Вы действительно хотите завершить тренинг?<br/>Нажмите "Х" еще раз.</div>
+				</div>
+
+				<div class="main-controls">
+					<img id="exit" class="some-control exit-control" src="images/closeWhite.png" onclick="exitHandler()"/>
+					<img id="info" class="some-control info-control" src="images/infoLetter.png" onclick="infoHandler()"/>
+				</div>
+
+				<table class="score-table">
+					<tr>
+						<td>Level</td>
+						<td>
+							<span id="levelInfo">0</span>
+						</td>
+					</tr>
+					<tr>
+						<td>Score</td>
+						<td>
+							<span id="scoreInfo">0</span>
+						</td>
+					</tr>
+					<tr>
+						<td>Cubes <br> Played</td>
+						<td>
+							<span id="cubesInfo">0</span>
+						</td>
+					</tr>
+					<tr>
+						<td>High Score</td>
+						<td>
+							<span id="highScoreInfo">0</span>
+						</td>
+					</tr>
+				</table>
+
+				<div id="infoPage" class="info-page">
+
+					<div class="info-title">
+						Information
+					</div>
+
+					<div class="info-cube-container"><img class="info-cube" src="images/infoCubeWhite.png"/></div>
+
+					<table class="info-table">
+						<tr>
+							<td>Ox: Q/A</td>
+							<td>Oy: W/S</td>
+							<td>Oz: E/D</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								<canvas id="infoPanel" class="info-panel" width="1000" height="227">
+							</td>
+						</tr>
+					</table>
+
+					<div class="main-controls">
+						<img id="closeInfo" class="some-control exit-control close-info" src="images/closeWhite.png" onclick="closeInfoPage()"/>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<div id="exitPage" class="main-page border">
+
+				<div class="exit-page">
+					Спасибо за прохождение тренинга!
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+</html>

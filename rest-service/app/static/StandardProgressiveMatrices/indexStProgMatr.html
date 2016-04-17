@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Standard Progressive Matrices</title>
+		<link type="text/css"  rel="stylesheet" href="stylesStProgMatr.css"/>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="archiveB64CodeForTest_js-unzip_js-inflate.js"></script>
+		<script type="text/javascript" src="stProgMatr.js"></script>
+		<script type="text/javascript">
+			var personTrainingScore;
+			var personTrainingResult="";
+			var personTrainingLevel=1;
+			var personTrainingState=0;
+			var personTrainingRecord;
+			var paramNumber=0;
+			var openCounter=0;
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document).keyup(function(event){
+					keyboardHandler(event);
+				});
+			});
+		</script>
+	</head>
+	<body onload="">
+		<div class="all-container">
+			<div id="firstPage" class="start-page border">
+				<!--____________START-PAGE___________-->
+
+				<div class="desc-container">
+					<div class="training-name">Tест невербального интеллекта</div>
+					<div class="training-description">В данном тесте Вам необходимо проанализировать каждое показанное Вам изображение и выбрать из списка недостающий фрагмент. Подтверждение выбора осуществляется посредством нажатия клавиши с номером нужного фрагмента на клавиатуре. Всего будет показано 60 изображений. Желаем удачи! Для начала выполнения испытания нажмите кнопку.</div>
+					<div class="play-button" onclick="startTraining()"><span class="play-arrow">&#9658;</span></div>
+					<div class="link-to-author">Использован стимульный материал Psylab.info</div>
+				</div>
+
+			</div>
+
+			<div id="mainPage" class="main-page border">
+
+				<div class="description">
+					<div id="desc0" class="desc-border desc-in">Выберите недостающую часть изображения из списка и подтвердите свой выбор нажатием клавиши с соответствующим номером на клавиатуре.</div>
+				</div>
+
+				<div class="task-container">
+					<div id="taskDisplay" class="task-display">
+						<img id="stimuliImage" class="stimuli-img">
+					</div>
+				</div>
+
+				<!-- <div id="correct" class="correct"></div> -->
+
+				<div id="infoContainer">
+					<div id="answerError" class="error-info">Данный вариант ответа недоступен в представленном задании</div>
+				</div>
+
+			</div>
+
+			<div id="exitPage" class="main-page border">
+
+				<div id="exitDescr" class="exit-page">
+					Спасибо за прохождение теста!
+				</div>
+				
+			</div>
+
+		</div>
+	</body>
+</html>
