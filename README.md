@@ -1,5 +1,4 @@
-# ibm-watson-hackathon
-Open edX peer assessment with tone analysis and cognitive trainigs
+# Open edX peer assessment with tone analysis and cognitive trainigs
 
 Process flow:
 1. Develop Watson integration module
