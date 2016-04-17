@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponse, HttpResponseNotFound, HttpResponseForbidden
+from django.http import HttpResponseRedirect, HttpResponse, HttpResponseNotFound, HttpResponseForbidden, JsonResponse
 import requests
 import urllib2
 import json
@@ -22,6 +22,7 @@ def index(request):
         response_dict = json.loads(r.text)
         print response_dict
         print getTraining(response_dict)
-        return HttpResponse(getTraining(response_dict))
+        return JsonResponse({'training': getTraining(response_dict),
+                             'sentences': badSentenceExtractor(response_dict)})
 
     return HttpResponse(status_code=404)

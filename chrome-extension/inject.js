@@ -51,10 +51,12 @@ var isPressed = false;
 function show_mistakes($el, full_text, mistakes){
   var html = '<div class="mistakes">'+full_text+'</div>';
   mistakes.forEach(function(v){
-    html.replace(new RegExp(v, "g"), '<span style="color:red;">' + v + '</span>');
+    html = html.replace(new RegExp(v, "g"), '<span style="color:red;">' + v + '</span>');
   });
   if ($el.prev().attr('class') == "mistakes") {
-    
+    $el.prev().html(html);
+  } else {
+    $el.before($(html));
   }
 }
 
@@ -77,11 +79,12 @@ function init_1() {
         success: function(msg){
           // console.log(msg)
           // if (!isPressed){
-          if(msg){
+          if(msg.training){
             alert("Your emotional tone is out of normal range, please participate in traing!");
-            $('#Iframe').attr('src', labs[msg]);
+            $('#Iframe').attr('src', labs[msg.training]);
             $('#Iframe').show();
             $('#Iframe_button').show();
+            show_mistakes($('#submission__answer__part__text__1'), $('#submission__answer__part__text__1').val(), msg.sentences)
           } else{
             func(e);
           }
@@ -100,7 +103,7 @@ function init_1() {
         }else{
           func(e);
         }
-        }}).done(function(data){alert(data)});
+        }});
 
       }
     // }
@@ -145,24 +148,26 @@ function init_2() {
       + $('#assessment__rubric__question--0__feedback').val()},
 
       success: function(msg){
-        if(msg){
+        if(msg.training){
           alert("Your emotional tone is out of normal range, please participate in traing!");
-          $('#Iframe').attr('src', labs[msg]);
+          $('#Iframe').attr('src', labs[msg.training]);
           $('#Iframe').show();
           $('#Iframe_button').show();
+          show_mistakes($('#assessment__rubric__question--feedback__value'), $('#assessment__rubric__question--feedback__value').val(), msg.sentences)
+          show_mistakes($('#assessment__rubric__question--0__feedback'), $('#assessment__rubric__question--0__feedback').val(), msg.sentences)
         } else{
           func(e);
         }
       },
       error: function(data){
-        if (data.responseText){
-          alert("Your emotional tone is out of normal range, please participate in traing!");
-          $('#Iframe').attr('src', labs[data.responseText]);
-          $('#Iframe').show();
-          $('#Iframe_button').show();
-      }else{
-        func(e);
-      }
+      //   if (data.responseText){
+      //     alert("Your emotional tone is out of normal range, please participate in traing!");
+      //     $('#Iframe').attr('src', labs[data.responseText]);
+      //     $('#Iframe').show();
+      //     $('#Iframe_button').show();
+      // }else{
+      //   func(e);
+      // }
       }
     });
   }

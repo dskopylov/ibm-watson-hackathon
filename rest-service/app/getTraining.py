@@ -1,3 +1,22 @@
+def badSentenceExtractor(emotionsObj):
+
+    sentences = []
+    if "sentences_tone" in emotionsObj.keys():
+        allContainer = emotionsObj["sentences_tone"]
+
+        for obj in allContainer:
+            extractedEmotions = obj["tone_categories"][0]["tones"]
+            c = 0
+            for em in extractedEmotions:
+                tone = em["tone_id"]
+                if em["score"]>0.5:
+                    c += 1
+            if c==1:
+                sentences.append(obj["text"])
+
+    return sentences
+
+
 def getTraining(emotionsObj):
 
     trainingCoeffs = {
